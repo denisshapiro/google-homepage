@@ -4,18 +4,42 @@
     <head>
         <title>Google</title>
         <link href="style.css" type="text/css" rel="stylesheet">
+        <!--
         <link href="reset.css" type="text/css" rel="stylesheet">
+        -->
         <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
     </head>
 
     <body>
 
-        <div id = "main">
-        <img id="logo" src = "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt = "Google">
-        <div id = "search-border">
-            <input type="text" id="searchbar" name="searchbar">
-        </div>  
-        
+        <div id = "header">
+            <ul>
+                <a href="#"><li>About</li></a>
+                <a href="#"><li>Store</li></a>
+                <a href="#"><li>Gmail</li></a>
+                <a href="#"><li>Images</li></a>
+            </ul>
         </div>
+
+        <div id = "main">
+                <img id="logo" src = "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt = "Google">
+            <div id = "search-border">
+                <input type="text" id="searchbar" name="searchbar">
+            </div> 
+
+            <div id="search-buttons">
+                <input type="submit" id = "search" name="search" value ="Google Search">
+                <input type="submit" id = "lucky" name="lucky" value ="I'm Feeling Lucky">
+            </div>
+
+            <div id= "french">
+                <p>Google offered in: <a href = "#">Français</a></p>
+            </div>    
+        </div>
+        
+        <div id = "footer">
+
+        </div>
+
     </body>
 </html>
