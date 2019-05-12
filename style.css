@@ -22,8 +22,8 @@
 
 #search-border{
     border: 1px solid rgb(182, 181, 181);
-    height: 50px;
-    width: 500px;
+    height: 45px;
+    width: 550px;
     display: flex;
     padding-left: 20px;
     padding-right: 20px;
@@ -45,6 +45,8 @@
 #search-buttons input{
     background-color: #f2f2f2;
     padding: 10px;
+    padding-left: 18px;
+    padding-right: 18px;
     border-radius: 5px;
     margin: 10px 5px;
     border: none;
@@ -54,6 +56,8 @@
 #search-buttons input:hover{
     background-color: #f2f2f2;
     padding: 9px;
+    padding-left: 17px;
+    padding-right: 17px;
     border-radius: 5px;
     margin: 10px 5px;
     border: 1px solid rgb(134, 139, 146);
@@ -90,4 +94,37 @@ li{
     color: #5F6368;
     font-family: "Roboto";
     font-size: small;
+}
+
+.left{
+    float: left;
+    position: relative;
+}
+
+.right{
+    text-align: end;
+}
+
+#menu{
+    height: 1.2%;
+    width: 1.2%;
+}
+
+#user{
+    height: 2.4%;
+    width: 2.4%; 
+    border-radius: 100%;
+    position: relative;
+    top: 7px;
+}
+
+#footer{
+    background-color: #f2f2f2;
+    padding-bottom: 5px;
+    padding-top: 0px;
+    left: 0px;
+    border-top: 1px solid #d8d8d8;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
