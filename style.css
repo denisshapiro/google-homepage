@@ -18,6 +18,7 @@
     margin: 5px 20px;
     font: 25px, "Roboto", sans-serif;
     border: none;
+    outline: none;
 }
 
 #search-border{
